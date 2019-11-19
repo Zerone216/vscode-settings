@@ -1,0 +1,107 @@
+{
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "workbench.sideBar.location": "left",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 5000,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Dejavu Sans Mono, Operator Mono, Dank Mono, Fira Code Light",
+    "files.defaultLanguage": "C++",
+    "window.zoomLevel": 0.8,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "workbench.commandPalette.history": 100,
+    "C_Cpp.updateChannel": "Insiders",
+
+    "fileheader.configObj": {
+        "createFileTime": true,
+        "beforeAnnotation": {
+          "py": "#!/usr/bin/env python\n# -*- coding: UTF-8 -*-" // py文件默认，可修改
+        },
+        "switch": {
+            "newlineAddAnnotation": true // 默认开启
+        },
+
+        "moveCursor": true, // 移动光标到`Description :`所在行
+        "autoAdd": false, // 自动添加头部注释开启才能自动添加
+        "autoAlready": true, // 默认开启
+        "prohibitAutoAdd": [ "json", "md" ], // 禁止.json .md文件，自动添加头部注释
+        "commitHooks": {
+            "allowHooks": true, // 默认允许进行hooks，设为false即可关闭
+            "noHooks": [
+              "项目名" // ../../地址/项目名
+            ], // 插件不对这些项目进行hooks
+            "showLog": true // 默认不输出日志
+        },
+    },
+
+    // 文件头部注释
+    "fileheader.customMade":{
+        "Declaration":"\n Copyright (c) 2009-2019 Zhang Sheng (Mr. Zhang) \n\n This program is free software; you can redistribute it and/or modify it under \n the terms of the GNU General Public License as published by the Free Software \n Foundation, either version 2 or any later version. \n \n Redistribution and use in source and binary forms, with or without modification, \n are permitted provided that the following conditions are met: \n \n 1. Redistributions of source code must retain the above copyright notice, this \n list of conditions and the following disclaimer. \n \n 2. Redistributions in binary form must reproduce the above copyright notice, \n this list of conditions and the following disclaimer in the documentation and/or \n other materials provided with the distribution. \n \n This program is distributed in the hope that it will be useful, but WITHOUT ANY \n WARRANTY; without even the implied warranty of MERCHANTABILITY or ITNESS FOR A \n PARTICULAR PURPOSE. See the GNU General Public License for more details. A copy \n of the GNU General Public License is available at: \n http:\/\/www.fsf.org/licensing/licenses \n \n All manufacturing, reproduction,use, and sales rights pertaining to this subject \n matter are governed bythe license agreement. The recipient of this software \n implicitly accepts the terms of the license.\n",
+        "Description":"",
+        "version":"",
+        "Author":"",
+        "Date":"Do not edit",
+        "LastEditTime": "current",
+        "E-Mail":"",
+        "Homepage":"",
+        "Repository":"",
+        "Support":"",
+        "Others":"",
+        "Modifylogs":"",
+    },
+
+    //函数注释
+    "fileheader.cursorMode":{
+        "name":"",
+        "test":"test font",
+        "msg":"",
+        "param":"",
+        "return":""
+    },
+
+    "http.proxySupport":"off",
+    "explorer.confirmDelete":false,
+
+    "astyle.additional_languages":[
+        "c",
+        "cpp",
+    ],
+    "astyle.executable":"C:\\Program Files (x86)\\astyle\\AStyle.exe",
+    "astyle.cmd_options":[
+        "--style=allman",
+        "--indent=spaces=4",//缩进4个空格
+        "--indent-namespaces",
+        "--indent-classes",
+        "--indent-modifiers",
+        "--indent-switches",
+        "--indent-case",
+        "--indent-preprocessor",
+        "--attach-namespaces",
+        "--attach-classes",
+        "--attach-inlines",
+        "--attach-closing-while",
+        "--break-blocks",
+        "--delete-empty-lines",
+        "--convert-tabs",
+        "--align-pointer=name",
+        "--align-reference=name",
+        "--keep-one-line-statements",
+        "--pad-header",
+        "--pad-oper",
+    ],
+
+    "epitech-c-cpp-headers.username":"",
+    "epitech-c-cpp-headers.login":"",
+    "epitech-c-cpp-headers.headerType":"pre2017",
+    "epitech-c-cpp-headers.usePragmaOnce":false,
+    "epitech-c-cpp-headers.autoGenerateClasses": true,
+    "debug.onTaskErrors": "debugAnyway",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "backgroundCover.opacity": 0.98,
+    "backgroundCover.randomImageFolder": "d:\\Program Files (x86)\\Microsoft VS Code\\background",
+    "backgroundCover.imagePath": "d:\\Program Files (x86)\\Microsoft VS Code\\background\\bg0.jpg",
+    "workbench.colorTheme": "Default High Contrast",
+    "editor.fontSize": 15,
+}
