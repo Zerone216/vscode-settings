@@ -4,7 +4,20 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 5000,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "Dejavu Sans Mono, Operator Mono, Dank Mono, Fira Code Light",
+    // 控制字体系列。
+    //"editor.fontFamily": "Consolas, 'Courier New', monospace",
+    //"editor.fontFamily": "Dank Mono, Fira Code Light",
+    //"editor.fontFamily": "Operator Mono Book",
+    "editor.fontFamily": "Operator Mono, Dank Mono, Fira Code Light",
+    //"editor.fontFamily": "Source Code Pro Italic, Dank Mono, Fira Code Light",
+    //"editor.fontFamily": "Source Code Pro",
+    //"editor.fontFamily": "Fira Code",
+    //"editor.fontFamily": "DejaVu Sans",
+    //"editor.fontFamily": "DejaVu Sans Oblique, Dank Mono, Fira Code Light",
+    //"editor.fontFamily": "mononoki",
+    //"editor.fontFamily": "Inconsolata",
+    //"editor.fontFamily": "NotoMono",
+    
     "files.defaultLanguage": "C++",
     "window.zoomLevel": 0.8,
     "[cpp]": {
