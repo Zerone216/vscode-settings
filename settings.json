@@ -46,31 +46,58 @@
             ], // 插件不对这些项目进行hooks
             "showLog": true // 默认不输出日志
         },
+        "specialOptions":{
+            "Date": "CreateTime",
+            "LastEditTime": "ModifyTime",
+            "LastEditors": "LastEditors",
+            "Description": "Description",
+            "FilePath": "FilePath"
+          },
+        "language": {
+            "c": {
+                "head": "/*",
+                "middle": " > ",
+                "end": " */",
+            },
+            "cpp": {
+                "head": "/*",
+                "middle": " > ",
+                "end": " */",
+            },
+            "java": {
+                "head": "/$$",
+                "middle": " $ > ",
+                "end": " $/"
+            },
+            // 针对有特殊要求的文件如：test.blade.php
+            "blade.php":{
+              "head": "<!--",
+              "middle": " * > ",
+              "end": "-->",
+            }
+        },
     },
-
-    // 文件头部注释
-    "fileheader.customMade":{
-        "Declaration":"\n Copyright (c) 2009-2019 Zhang Sheng (Mr. Zhang) \n\n This program is free software; you can redistribute it and/or modify it under \n the terms of the GNU General Public License as published by the Free Software \n Foundation, either version 2 or any later version. \n \n Redistribution and use in source and binary forms, with or without modification, \n are permitted provided that the following conditions are met: \n \n 1. Redistributions of source code must retain the above copyright notice, this \n list of conditions and the following disclaimer. \n \n 2. Redistributions in binary form must reproduce the above copyright notice, \n this list of conditions and the following disclaimer in the documentation and/or \n other materials provided with the distribution. \n \n This program is distributed in the hope that it will be useful, but WITHOUT ANY \n WARRANTY; without even the implied warranty of MERCHANTABILITY or ITNESS FOR A \n PARTICULAR PURPOSE. See the GNU General Public License for more details. A copy \n of the GNU General Public License is available at: \n http:\/\/www.fsf.org/licensing/licenses \n \n All manufacturing, reproduction,use, and sales rights pertaining to this subject \n matter are governed bythe license agreement. The recipient of this software \n implicitly accepts the terms of the license.\n",
-        "Description":"",
-        "version":"",
-        "Author":"",
-        "Date":"Do not edit",
-        "LastEditTime": "current",
-        "E-Mail":"",
-        "Homepage":"",
-        "Repository":"",
-        "Support":"",
-        "Others":"",
-        "Modifylogs":"",
-    },
-
-    //函数注释
     "fileheader.cursorMode":{
-        "name":"",
-        "test":"test font",
-        "msg":"",
-        "param":"",
-        "return":""
+        "FunctionName":"",
+        "Description":"",
+        "Parameters":"",
+        "Return":""
+    },
+    "fileheader.customMade": {
+        "Declaration":"\n Copyright (c) 2009-2019 Zhang Sheng (Mr. Zhang) \n \n This program is free software; you can redistribute it and/or modify it under \n the terms of the GNU General Public License as published by the Free Software \n Foundation, either version 2 or any later version.\n \n Redistribution and use in source and binary forms, with or without modification,\n are permitted provided that the following conditions are met: \n \n 1. Redistributions of source code must retain the above copyright notice, this\n list of conditions and the following disclaimer.\n \n 2. Redistributions in binary form must reproduce the above copyright notice,\n this list of conditions and the following disclaimer in the documentation and/or \n other materials provided with the distribution. \n\n This program is distributed in the hope that it will be useful, but WITHOUT ANY \n WARRANTY; without even the implied warranty of MERCHANTABILITY or ITNESS FOR A \n PARTICULAR PURPOSE. See the GNU General Public License for more details. A copy \n of the GNU General Public License is available at: \n http://www.fsf.org/licensing/licenses \n \n All manufacturing, reproduction,use, and sales rights pertaining to this subject \n matter are governed bythe license agreement. The recipient of this software \n implicitly accepts the terms of the license.\n",
+        "Author": "Zhang Sheng",
+        "FilePath": "Do not edit",
+        "Date": "Do not edit",
+        "LastEditTime": "Do not edit",
+        "LastEditors": "",
+        "Description": "",
+        "version" : "",
+        "E-Mail" : "zerone216@163.com",
+        "Homepage" : "http://www.zerone216.top:8080",
+        "Repository" : "https://github.com/zerone216/",
+        "Support" : "",
+        "Others" : "",
+        "Changelogs" : "",
     },
 
     "http.proxySupport":"off",
